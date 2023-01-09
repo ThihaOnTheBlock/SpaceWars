@@ -10,3 +10,18 @@
 </ul>
 
 <h5>Getting Started</h5>
+<ol>
+<li> Env setup - creating a specific python env is recommended </li>
+
+    python -m venv env 
+
+<li> Install the dependencies using pip  </li>
+    
+    pip install -r requirements.txt
+
+<li> Run </li>
+    
+    python SpaceWars.py 
+
+<li> On Windows system, you can also run directly from the provided executable ( SpaceWar.exe ) </li>
+</ol>
