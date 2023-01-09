@@ -14,6 +14,10 @@
 <li> Env setup - creating a specific python env is recommended </li>
 
     python -m venv env 
+    
+<li> Activate the environment by </li>
+
+    source activate.sh
 
 <li> Install the dependencies using pip  </li>
     
