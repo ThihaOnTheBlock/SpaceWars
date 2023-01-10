@@ -223,13 +223,13 @@ class stars:
             #pygame.draw.rect(screen, color, [self.starpos[x][0],
             #                 self.starpos[x][1], 2, 2])
             pygame.draw.circle(screen,self.color,(self.starpos[x][0],self.starpos[x][1]),self.radius)
-        self.movestars()
+        # self.movestars()
 
-    def movestars(self):
-        for x in range(self.nofstars):
-            self.starpos[x][1] += self.speed
-            if self.starpos[x][1] > height:
-                self.starpos[x][1] = 0
+    # def movestars(self):
+    #     for x in range(self.nofstars):
+    #         self.starpos[x][1] += self.speed
+    #         if self.starpos[x][1] > height:
+    #             self.starpos[x][1] = 0
 
 
 
